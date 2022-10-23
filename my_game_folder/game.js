@@ -1,6 +1,6 @@
 const config = {
-    width: 800,
-    height: 600,
+    width: 256,
+    height: 256,
     backgroundColor: 0x00000,
     scene:[Scene1, Scene2]
 }
