@@ -13,7 +13,7 @@ const config = {
 }
 
 const gameSettings = {
-    playerSpeed: 100
+    playerSpeed: 200
 }
 
 let game = new Phaser.Game(config);
