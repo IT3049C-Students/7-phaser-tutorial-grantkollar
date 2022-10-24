@@ -4,37 +4,37 @@ class Scene1 extends Phaser.Scene{
     }
 
     preload(){
-        this.load.image("background", "assets/background.png");
+        this.load.image("background", "my_game_folder/assets/background.png");
         //this.load.image("ship", "assets/ship.png");
         //this.load.image("ship2", "assets/ship2.png");
         //this.load.image("ship3", "assets/ship3.png");
 
-        this.load.spritesheet("ship","assets/spritesheet/shipsprite.png",{
+        this.load.spritesheet("ship","my_game_folder/assets/spritesheet/shipsprite.png",{
             frameWidth: 16,
             frameHeight: 16
         });
-        this.load.spritesheet("ship2","assets/spritesheet/ship2sprite.png",{
+        this.load.spritesheet("ship2","my_game_folder/assets/spritesheet/ship2sprite.png",{
             frameWidth: 32,
             frameHeight: 16
         });
-        this.load.spritesheet("ship3","assets/spritesheet/ship3sprite.png",{
+        this.load.spritesheet("ship3","my_game_folder/assets/spritesheet/ship3sprite.png",{
             frameWidth: 32,
             frameHeight: 32
         });
-        this.load.spritesheet("explosion","assets/spritesheet/explosion.png",{
+        this.load.spritesheet("explosion","my_game_folder/assets/spritesheet/explosion.png",{
             frameWidth: 16,
             frameHeight: 16
         });
 
-        this.load.spritesheet("power-up","assets/spritesheet/power-up.png",{
+        this.load.spritesheet("power-up","my_game_folder/assets/spritesheet/power-up.png",{
             frameWidth: 16,
             frameWidth:16
         });
-        this.load.spritesheet("player","assets/spritesheet/player.png",{
+        this.load.spritesheet("player","my_game_folder/assets/spritesheet/player.png",{
             frameWidth: 16,
             frameHeight:24
         });
-        this.load.spritesheet("beam","assets/spritesheet/beam.png",{
+        this.load.spritesheet("beam","my_game_folder/assets/spritesheet/beam.png",{
             frameWidth:16,
             frameHeight:16
         });
